@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/%40novyk%2Fing.svg)](https://www.npmjs.com/@novyk/ing)
+
 # 🦥 Ing
 
 Simple async state container for RxJS and Angular.
@@ -5,10 +7,10 @@ Simple async state container for RxJS and Angular.
 ## Features
 
 * Stores multiple async operation states: New, Ongoing, Succeed, Failed.
-* Gives `Observable` with the state and one-time subscription methods.
+* Gives Observables with the state.
 * Has a helper operator for RxJS integration.
 * Adapted for using in Angular templates.
-* Easily integrates with you custom services and components.
+* Easily integrates with your custom services and components.
 * Has no additional dependencies and complex abstractions.
 
 
@@ -93,6 +95,5 @@ Using `ngSwitch`:
 
 ### TODO
 
-* [ ] .npmignore
 * [ ] tests
 * [ ] CI release 
