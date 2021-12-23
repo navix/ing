@@ -1,0 +1,40 @@
+{
+  "name": "@novyk/ing",
+  "version": "1.0.0",
+  "description": "Simple async state container for RxJS and Angular.",
+  "keywords": [
+    "angular",
+    "rxjs",
+    "loading",
+    "state"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "publ": "npm publish --access=public",
+    "publ:beta": "npm publish --access=public --tag=beta",
+    "release": "npm run build && npm run publ"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/navix/ing.git"
+  },
+  "author": {
+    "name": "Oleksa Novyk",
+    "email": "novyk@pm.me",
+    "url": "https://oleksanovyk.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/navix/ing/issues"
+  },
+  "homepage": "https://github.com/navix/ing#readme",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "rxjs": "^7.4.0",
+    "typescript": "^4.5.4"
+  },
+  "peerDependencies": {
+    "rxjs": ">= 5.5.0"
+  }
+}
