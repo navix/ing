@@ -66,7 +66,7 @@ component MyCompontent {
 </div>
 ```
 
-Or subscribe to streams to improve performance: 
+Or subscribe to streams: 
 
 ```
 <div *ngIf="loading.ongoing$ | async">
@@ -93,7 +93,8 @@ Using `ngSwitch`:
 </div>
 ```
 
-### TODO
 
-* [ ] tests
-* [ ] CI release 
+
+## Licence
+
+MIT
